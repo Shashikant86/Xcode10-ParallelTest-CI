@@ -12,7 +12,10 @@
 		9BD43F47217C89C9004F19AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD43F45217C89C9004F19AD /* Main.storyboard */; };
 		9BD43F49217C89D3004F19AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD43F48217C89D3004F19AD /* Assets.xcassets */; };
 		9BD43F4C217C89D3004F19AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD43F4A217C89D3004F19AD /* LaunchScreen.storyboard */; };
-		9BD43F57217C89D3004F19AD /* Xcode10_ParallelTest_CIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F56217C89D3004F19AD /* Xcode10_ParallelTest_CIUITests.swift */; };
+		9BD43F57217C89D3004F19AD /* UITest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F56217C89D3004F19AD /* UITest1.swift */; };
+		9BD43F62217C8A00004F19AD /* UITest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F61217C8A00004F19AD /* UITest2.swift */; };
+		9BD43F64217C8A0E004F19AD /* UITest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F63217C8A0E004F19AD /* UITest3.swift */; };
+		9BD43F66217C8A1A004F19AD /* UITest4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD43F65217C8A1A004F19AD /* UITest4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +37,11 @@
 		9BD43F4B217C89D3004F19AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD43F4D217C89D3004F19AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD43F52217C89D3004F19AD /* Xcode10-ParallelTest-CIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode10-ParallelTest-CIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BD43F56217C89D3004F19AD /* Xcode10_ParallelTest_CIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode10_ParallelTest_CIUITests.swift; sourceTree = "<group>"; };
+		9BD43F56217C89D3004F19AD /* UITest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest1.swift; sourceTree = "<group>"; };
 		9BD43F58217C89D3004F19AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD43F61217C8A00004F19AD /* UITest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest2.swift; sourceTree = "<group>"; };
+		9BD43F63217C8A0E004F19AD /* UITest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest3.swift; sourceTree = "<group>"; };
+		9BD43F65217C8A1A004F19AD /* UITest4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +96,11 @@
 		9BD43F55217C89D3004F19AD /* Xcode10-ParallelTest-CIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9BD43F56217C89D3004F19AD /* Xcode10_ParallelTest_CIUITests.swift */,
+				9BD43F56217C89D3004F19AD /* UITest1.swift */,
 				9BD43F58217C89D3004F19AD /* Info.plist */,
+				9BD43F61217C8A00004F19AD /* UITest2.swift */,
+				9BD43F63217C8A0E004F19AD /* UITest3.swift */,
+				9BD43F65217C8A1A004F19AD /* UITest4.swift */,
 			);
 			path = "Xcode10-ParallelTest-CIUITests";
 			sourceTree = "<group>";
@@ -206,7 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD43F57217C89D3004F19AD /* Xcode10_ParallelTest_CIUITests.swift in Sources */,
+				9BD43F62217C8A00004F19AD /* UITest2.swift in Sources */,
+				9BD43F64217C8A0E004F19AD /* UITest3.swift in Sources */,
+				9BD43F66217C8A1A004F19AD /* UITest4.swift in Sources */,
+				9BD43F57217C89D3004F19AD /* UITest1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
