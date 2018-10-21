@@ -7,10 +7,10 @@ install: true
 matrix:
   include:
   - osx_image: xcode10
-    env: DEVICE=iPhone X
+    env: CI_DEVICE='iPhone X'
   - osx_image: xcode10
-    env: DEVICE=iPhone 6
+    env: CI_DEVICE='iPhone 6'
 
 script:
-  - xcodebuild -project Xcode10-ParallelTest-CI.xcodeproj/ -scheme Xcode10-ParallelTest-CI -destination 'platform=iOS Simulator,OS=12.0,name=${DEVICE}' clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -parallel-testing-enabled YES -parallel-testing-worker-count 4 -quiet
+  - xcodebuild -project Xcode10-ParallelTest-CI.xcodeproj/ -scheme Xcode10-ParallelTest-CI -destination 'platform=iOS Simulator,OS=12.0,name=$CI_DEVICE' clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -parallel-testing-enabled YES -parallel-testing-worker-count 4 -quiet
  
