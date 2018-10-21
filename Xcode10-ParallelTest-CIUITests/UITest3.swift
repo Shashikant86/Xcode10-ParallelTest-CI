@@ -27,7 +27,7 @@ class UITest3: XCTestCase {
     }
 
     func test3AssertMe() {
-        XCTAssertTrue(XCUIApplication().buttons["AssertMe"].exists)
+        XCTAssertTrue(XCUIApplication().buttons["Me"].exists)
     }
 
 }
